@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/welcomeExitbtn"
+        android:layout_width="15dp"
+        android:layout_height="17dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/exit"/>
+
+    <TextView
+        android:id="@+id/titletxt1"
+        android:fontFamily="@font/fancy"
+        android:textColor="@color/theme"
+        android:paddingLeft="10dp"
+        android:textSize="30sp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIFE IS SHORT."/>
+    <TextView
+        android:id="@+id/titletxt2"
+        android:fontFamily="@font/fancy"
+        android:textColor="@color/theme"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAKE EVERY HAIR FLIP "/>
+    <TextView
+        android:id="@+id/titletxt3"
+        android:fontFamily="@font/fancy"
+        android:textColor="@color/theme"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FABULOUS."/>
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:shadowColor="#000"
+        android:textColor="@color/theme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/shape"
+        android:text="LOGIN"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"/>
+    <Button
+        android:id="@+id/signUpbtn"
+        android:textColor="@color/theme"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/shape"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGNUP"/>
+
+
+</LinearLayout>
